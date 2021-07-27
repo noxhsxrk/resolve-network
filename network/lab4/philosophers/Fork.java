@@ -15,6 +15,7 @@ public class Fork {
         if(!taked){
             taked = true;
             this.holderName = holderName;
+            return true;
         }
         return taked;
     }
