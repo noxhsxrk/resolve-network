@@ -22,4 +22,6 @@
     <li><a href="network/lab2">Lab 2 : Java I/O </a></li>
     <li><a href="network/lab3">Lab 3 : Java Thread </a></li>
     <li><a href="network/lab4/philosophers">Lab 4 : Java Thread 2 </a></li>
+   <li><a href="network/lab5">Lab 5 : Java Thread 3 </a></li>
+  <li><a href="network/lab6">Lab 6 : Looking up IP </a></li>
   </ol>
