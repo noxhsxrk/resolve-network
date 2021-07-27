@@ -11,8 +11,9 @@
 </p>
 
 วิชา Network Programing 030513362
+<p>
 ของ <a href="http://choopanr.staff.kmutnb.ac.th/index.php>"Assoc. Prof. Dr. Choopan Rattanapoka</a>
-
+</p>
 
 <!-- รายการ Labs -->
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
