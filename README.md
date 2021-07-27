@@ -10,7 +10,9 @@
   
 </p>
 
-เฉลยวิชา Network Programing 030513362
+วิชา Network Programing 030513362
+ของ <a href="http://choopanr.staff.kmutnb.ac.th/index.php>"Assoc. Prof. Dr. Choopan Rattanapoka</a>
+
 
 <!-- รายการ Labs -->
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
