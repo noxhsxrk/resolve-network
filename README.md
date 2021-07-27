@@ -1,5 +1,4 @@
 
-<br />
 <p align="center">
   <a href="https://github.com/noxhsxrk/resolve-network">
     <img src="images/1.png" alt="Logo" width="80" height="80">
@@ -11,8 +10,9 @@
 </p>
 
 วิชา Network Programing 030513362
+
 <p>
-ของ <a href="http://choopanr.staff.kmutnb.ac.th/index.php>"Assoc. Prof. Dr. Choopan Rattanapoka</a>
+ของ <a href="http://choopanr.staff.kmutnb.ac.th/index.php">Assoc. Prof. Dr. Choopan Rattanapoka</a>
 </p>
 
 <!-- รายการ Labs -->
