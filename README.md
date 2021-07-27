@@ -16,7 +16,7 @@
 </p>
 
 <!-- รายการ Labs -->
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <summary><h2 style="display: inline-block">รายการ Labs</h2></summary>
   <ol>
     <li><a href="network/lab1">Lab 1 : Introduction to Java </a></li>
     <li><a href="network/lab2">Lab 2 : Java I/O </a></li>
