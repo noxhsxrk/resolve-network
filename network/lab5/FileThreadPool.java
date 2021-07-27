@@ -18,7 +18,6 @@ public class FileThreadPool implements Runnable {
      }
     public static void main(String[] args) {
         ExecutorService es = Executors.newFixedThreadPool(3);
-        int i = 0;
         try {
             String msg = "";
             File Rfile = new File(args[0]);
