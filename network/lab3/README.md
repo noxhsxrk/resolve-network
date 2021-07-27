@@ -4,7 +4,7 @@
 
 #### JavaThread.java
 
-```sh
+```java
 จงเขียนโปรแกรมโดยให้โปรแกรมต้นฉบับชื่อ JavaThread.java 
 ซึ่งโปรแกรมจะรับพารามิเตอร์ 1 ค่าเป็นจานวนเต็ม
 จากนั้นให้สร้างโปรแกรมสร้าง Thread ที่เกิดจาก Class ที่ “extends Thread” ขึ้นมาตามจานวนที่ผู้ใช้ป้อนโดยแต่ละ Thread จะพิมพ์หมายเลข Thread 
@@ -18,7 +18,7 @@
 
 #### JavaTwoThread.java
 
-```sh
+```java
 จงเขียนโปรแกรมโดยให้โปรแกรมต้นฉบับชื่อ JavaTwoThread.java 
 โดยภายในโปรแกรมจะมีการใช้งาน 2 Thread ที่สร้างจาก class ที่ “implements Runnable” ซึ่ง
   • Thread ที่ 1 จะทาการบวกค่าตั้งแต่เลข 1 – 5000 แล้วหลับรอ 5 วินาที
@@ -35,29 +35,35 @@
 
 import java.io.*;
 public class JavaSyncTest implements __________________________ {
-static volatile int balance = 0;
-______________ Object o = new ____________________( );
-public void run( ) {
-for(int i = 0; i < 100000; i++) {
-synchronized( _________________ ) { balance++; }
-}
-}
-public int getBalance( ) { return _______________________________ ; }
-public static void main(String[ ] args) {
-JavaSyncTest j1 = new ______________________________( );
-JavaSyncTest j2 = new ______________________________( );
-JavaSyncTest j3 = new ______________________________( );
-Thread ______ = new ________________________ ;
-Thread ______ = new ________________________ ;
-Thread _______ = new ________________________ ;
-t1._________________ ; t2.__________________; _________________;
-try {
-t1.________________( );
-t2.________________( );
-t3.________________( );
-} catch(Exception e) { }
-System.out.println(“Balance = “ + __________________________________ );
-}
+          static volatile int balance = 0;
+          ______________ Object o = new ____________________( );
+          public void run( ) {
+                    for(int i = 0; i < 100000; i++) {
+                              synchronized( _________________ ) { balance++; }
+                    }
+          }
+          public int getBalance( ) { 
+                    return _______________________________ ; 
+          }
+          public static void main(String[ ] args) {
+                    JavaSyncTest j1 = new ______________________________( );
+                    JavaSyncTest j2 = new ______________________________( );
+                    JavaSyncTest j3 = new ______________________________( );
+                    
+                    Thread ______ = new ________________________ ;
+                    Thread ______ = new ________________________ ;
+                    Thread _______ = new ________________________ ;
+                    
+                    t1._________________ ; t2.__________________; t3._________________;
+                    
+                    try {
+                              t1.________________( );
+                              t2.________________( );
+                              t3.________________( );
+                    } catch(Exception e) { }
+                    
+                    System.out.println(“Balance = “ + __________________________________ );
+           }
 }
 
 ```
