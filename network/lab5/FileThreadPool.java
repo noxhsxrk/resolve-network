@@ -1,4 +1,5 @@
-package network.lab5;
+//6103051623138
+//Saharat Wanthong
 import java.io.*;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ExecutorService;
@@ -7,7 +8,7 @@ public class FileThreadPool implements Runnable {
     int num;
     @Override
     public void run()  {
-        System.out.println(num*num);
+        System.out.println(num +" -> "+num*num);
         try {
             Thread.sleep(1000);
          } catch (Exception e) {
@@ -28,8 +29,8 @@ public class FileThreadPool implements Runnable {
                 FileThreadPool ftp = new FileThreadPool(Integer.parseInt(msg));  
                 es.execute(ftp);
             }
-            es.shutdown();
-            br.close();
+            es.shutdown(); 
+            br.close(); 
         } catch (Exception e) {}
 
 

@@ -1,4 +1,3 @@
-package network.lab6;
 
 import java.net.*;
 public class JavaIP {
